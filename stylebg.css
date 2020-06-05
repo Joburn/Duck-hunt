@@ -1,0 +1,33 @@
+body {
+    background-image: url(https://i.ytimg.com/vi/i9R8MqilMW8/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    counter-reset: count;
+}
+
+h1 {
+    position: absolute;
+    margin: auto;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    visibility: hidden;
+    left: -9999px;
+}
+
+img {
+    width: 100px;
+}
+input[type="checkbox"]:checked {
+    counter-increment: count;
+}
+
+input[type="checkbox"]:checked + img {
+    visibility: hidden;
+}
+
+h1::after {
+    content: ' ' counter(count);
+}

@@ -1,0 +1,30 @@
+@for $i from 1 through 10 {
+  @keyframes myduck-#{$i} {
+    0% {
+      left: -100px;
+      top: random(77) + vh;
+    }
+
+    30% {
+      left: 30%;
+      top: random(77) + vh;
+    }
+
+    70% {
+      left: 65%;
+      top: random(77) + vh;
+    }
+
+    100% {
+      left: 100%;
+      top: random(77) + vh;
+    }
+  }
+}
+
+@for $i from 1 through 10 {
+  .duck-#{$i} {
+    position: absolute;
+    animation: myduck-#{$i} random(6) + 6 + s linear #{$i}s 1 both;
+  }
+}

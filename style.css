@@ -1,0 +1,231 @@
+@keyframes myduck-1 {
+  0% {
+    left: -100px;
+    top: 38vh;
+  }
+  30% {
+    left: 30%;
+    top: 27vh;
+  }
+  70% {
+    left: 65%;
+    top: 3vh;
+  }
+  100% {
+    left: 100%;
+    top: 5vh;
+  }
+}
+@keyframes myduck-2 {
+  0% {
+    left: -100px;
+    top: 44vh;
+  }
+  30% {
+    left: 30%;
+    top: 23vh;
+  }
+  70% {
+    left: 65%;
+    top: 62vh;
+  }
+  100% {
+    left: 100%;
+    top: 39vh;
+  }
+}
+@keyframes myduck-3 {
+  0% {
+    left: -100px;
+    top: 73vh;
+  }
+  30% {
+    left: 30%;
+    top: 75vh;
+  }
+  70% {
+    left: 65%;
+    top: 22vh;
+  }
+  100% {
+    left: 100%;
+    top: 52vh;
+  }
+}
+@keyframes myduck-4 {
+  0% {
+    left: -100px;
+    top: 38vh;
+  }
+  30% {
+    left: 30%;
+    top: 12vh;
+  }
+  70% {
+    left: 65%;
+    top: 39vh;
+  }
+  100% {
+    left: 100%;
+    top: 55vh;
+  }
+}
+@keyframes myduck-5 {
+  0% {
+    left: -100px;
+    top: 11vh;
+  }
+  30% {
+    left: 30%;
+    top: 35vh;
+  }
+  70% {
+    left: 65%;
+    top: 12vh;
+  }
+  100% {
+    left: 100%;
+    top: 23vh;
+  }
+}
+@keyframes myduck-6 {
+  0% {
+    left: -100px;
+    top: 60vh;
+  }
+  30% {
+    left: 30%;
+    top: 44vh;
+  }
+  70% {
+    left: 65%;
+    top: 28vh;
+  }
+  100% {
+    left: 100%;
+    top: 16vh;
+  }
+}
+@keyframes myduck-7 {
+  0% {
+    left: -100px;
+    top: 60vh;
+  }
+  30% {
+    left: 30%;
+    top: 51vh;
+  }
+  70% {
+    left: 65%;
+    top: 49vh;
+  }
+  100% {
+    left: 100%;
+    top: 38vh;
+  }
+}
+@keyframes myduck-8 {
+  0% {
+    left: -100px;
+    top: 65vh;
+  }
+  30% {
+    left: 30%;
+    top: 1vh;
+  }
+  70% {
+    left: 65%;
+    top: 47vh;
+  }
+  100% {
+    left: 100%;
+    top: 60vh;
+  }
+}
+@keyframes myduck-9 {
+  0% {
+    left: -100px;
+    top: 20vh;
+  }
+  30% {
+    left: 30%;
+    top: 74vh;
+  }
+  70% {
+    left: 65%;
+    top: 17vh;
+  }
+  100% {
+    left: 100%;
+    top: 70vh;
+  }
+}
+@keyframes myduck-10 {
+  0% {
+    left: -100px;
+    top: 9vh;
+  }
+  30% {
+    left: 30%;
+    top: 71vh;
+  }
+  70% {
+    left: 65%;
+    top: 36vh;
+  }
+  100% {
+    left: 100%;
+    top: 67vh;
+  }
+}
+.duck-1 {
+  position: absolute;
+  animation: myduck-1 12s linear 1s 1 both;
+}
+
+.duck-2 {
+  position: absolute;
+  animation: myduck-2 9s linear 2s 1 both;
+}
+
+.duck-3 {
+  position: absolute;
+  animation: myduck-3 9s linear 3s 1 both;
+}
+
+.duck-4 {
+  position: absolute;
+  animation: myduck-4 7s linear 4s 1 both;
+}
+
+.duck-5 {
+  position: absolute;
+  animation: myduck-5 7s linear 5s 1 both;
+}
+
+.duck-6 {
+  position: absolute;
+  animation: myduck-6 8s linear 6s 1 both;
+}
+
+.duck-7 {
+  position: absolute;
+  animation: myduck-7 12s linear 7s 1 both;
+}
+
+.duck-8 {
+  position: absolute;
+  animation: myduck-8 8s linear 8s 1 both;
+}
+
+.duck-9 {
+  position: absolute;
+  animation: myduck-9 12s linear 9s 1 both;
+}
+
+.duck-10 {
+  position: absolute;
+  animation: myduck-10 11s linear 10s 1 both;
+}
+
+/*# sourceMappingURL=style.css.map */
